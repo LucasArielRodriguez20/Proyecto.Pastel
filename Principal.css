@@ -1,0 +1,75 @@
+body{
+	background-color:#F498F7;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/////////////
+.Menu{
+	display: flex;
+    width: 100vw;
+    height: 6vh;
+    margin: auto;
+}
+.Menu-Ul{
+	display: flex;
+    width: 100vw;
+    height: 6vh;
+    margin: auto;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 4vh;
+}
+.Menu-Botones{
+	display: flex;
+    width: 15vw;
+    height: 5vh;
+    justify-content: center;
+    background-color: #F498F7;
+    border-radius: 25px;
+    border: solid;
+    font-size: 176%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+}
+.Menu-Botones:hover{
+	background-color: #D679DA;
+}
+////////////////
+.Titulo{
+	display: flex;
+	width: 100vw;
+	height:10vh;
+	margin: auto;
+}
+.Titulo-Principal{
+	display: flex;
+    justify-content: center;
+    font-family: 'Neonderthaw', cursive;
+    font-size: 7vw;
+}
+//////////////
+.Contenido{
+	display: flex;
+	margin: auto;
+}
+.Contenedores{
+	margin: auto;
+	width: 90vw;
+	height: 60vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.Pictures{
+	display: flex;
+	width: 30vw;
+	border-radius: 7vw;
+}
+.informacion{
+	display: flex;
+	font-family:'Dancing Script', cursive;
+	padding: 2%;
+    font-size: 4vh;
+    font-weight: 900;
+}
